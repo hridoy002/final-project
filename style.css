@@ -200,6 +200,7 @@ body{
 }
 .btn a{
     text-decoration: none;
+    color: black;
 }
 
 .footer .box-container .box .payment-img{

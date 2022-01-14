@@ -15,7 +15,7 @@ body{
 .header{
     position: fixed;
     width: 100%;
-    height: 47px;
+    height:35px;
     background:rgb(0, 0, 0);
     padding:32px 9%;
     display: flex;
@@ -101,31 +101,44 @@ body{
     padding-bottom: 30px;
     width: 1260px;
     position: relative;
-    
+    /* margin: 0 50px; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 10px;
-    justify-content: center;
+    grid-gap: 20px;
+    
 }
    
 .card{
-    width: 100%;
+    width: 60%;
     background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px grey;
 }
-   
-
+.card:hover{
+    box-shadow: 20px 20px 30px grey;
+}  
 .card .product-img{
+    display: flex;
+    justify-content: center;
+}
+.card .product-img img{
     position: relative;
-    width: 100%;
-    
+    width: 50%;
+    height: 200px;
 }
 .card-content{
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
    
 }
 .card-content button{
     font-size: 16px;
-
+    padding: 4px 50px;
+    border-radius: 20px;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -148,6 +161,7 @@ body{
 }
 .footer .box-container .box{
     margin-left:80px;
+    margin-top: 50px;
 }
 .footer .box-container .box h3{
     font-size: 24px;
@@ -221,17 +235,17 @@ body{
 }
 
 .footer .box-container .box .payment-img{
-    margin-top: 2rem;
-    height: 3rem;
+    margin-top: 32px;
+    height: 48px;
     display: block;
 }
 
 .footer .credit{
     text-align: center;
-    margin-top: 1.6rem;
-    padding:1rem;
-    padding-top: 2.5rem;
-    font-size: 1.3rem;
+    margin-top:26px;
+    padding:16px;
+    padding-top: 40px;
+    font-size: 15px;
     color:grey;
     border-top: 1px solid lightgray;
 }

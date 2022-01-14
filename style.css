@@ -65,37 +65,40 @@ body{
 /* start Categories */
 
 .categories{
+    
+    margin-top: 40px;
+    }
+.categories h1{
     font-size: 40px;
     text-align: center;
-    margin-top: 40px;
-    
 }
-
 
 .categories-item{
     margin-top: 100px;
-
+    text-align: center;
     display:grid;
     grid-template-columns: repeat(4,1fr);
     grid-row-gap: 80px;
 }
 .categories-item .item p{
     font-size: 18px;
+    padding-top: 15px;
 }
 /* End categories */
 /* start products */
 .products{
-    margin:128px 0;
+    margin:140px 0;
 }
 .products h1{
-    font-size: 60px;
+    margin: 70px 0;
+    font-size: 40px;
     text-align: center;
     font-weight: 600;
 
 }
 
 .card-container{
-    margin-top: 48px;
+    padding-bottom: 30px;
     width: 1260px;
     position: relative;
     

@@ -16,7 +16,7 @@ body{
     position: fixed;
     width: 100%;
     height:35px;
-    background:rgb(0, 0, 0);
+    background:#041C32;
     padding:32px 9%;
     display: flex;
     flex-direction: row;
@@ -36,6 +36,12 @@ body{
     display: flex;
     justify-content: right;
     margin-right: 15%;
+    align-items: center;
+}
+.fas{
+    font-size: 20px;
+    color: white;
+    padding-right: 5px;
 }
 .nav a{
      font-size: 20px;
@@ -98,12 +104,13 @@ body{
 }
 
 .card-container{
-    padding-bottom: 30px;
-    width: 1260px;
+    /* padding-bottom: 30px; */
+    /* width: 1260px; */
     position: relative;
     /* margin: 0 50px; */
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
     grid-gap: 20px;
     
 }
@@ -123,7 +130,7 @@ body{
 }
 .card .product-img img{
     position: relative;
-    width: 50%;
+    /* width: 50%; */
     height: 200px;
 }
 .card-content{
@@ -134,9 +141,11 @@ body{
 }
 .card-content button{
     font-size: 16px;
+    margin-top: 15px;
     padding: 4px 50px;
     border-radius: 20px;
-    background-color: orangered;
+    background-color: #041C32;
+    color: white;
     border: none;
     cursor: pointer;
 }
@@ -178,7 +187,7 @@ body{
 }
 
 .footer .box-container .box .links i{
-    
+    color: lightslategrey;
     padding-right: 8px;
 }
 
